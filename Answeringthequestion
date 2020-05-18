@@ -1,0 +1,20 @@
+#!/bin/bash
+#author : Fayaz
+#Date : 15/05/2020
+#Description: reading the answer from input
+
+echo "Do u like Working IT?"
+echo
+echo "enter y/n"
+echo
+read answer
+echo 
+if [ $answer == y ]
+        then
+                echo great , lets join hands together
+        elif [ $answer == n ]
+                then
+                echo thats bad , cause its fun
+        else
+                echo "wrong option "
+fi
